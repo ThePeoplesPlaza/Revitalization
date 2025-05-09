@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Georgetown Plaza</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="Georgetown Logo v3.png" />
+</head>
+<body>
+  <header class="hero">
+    <img src="Georgetown Logo v3.png" class="logo" alt="Georgetown Logo" />
+    <h1>Georgetown Revitalization Project</h1>
+    <hr class="nav-separator" />
+  </header>
+  <div class="nav-bar">
+    <nav>
+      <a href="#model">3D Model</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#The Vision">The Vision</a>
+      <a href="#units">Units</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <section class="section" id="model">
+    <h2>3D Conceptual Model</h2>
+    <div class="mobile-only-button-wrapper">
+        <a href="https://a360.co/4j6aKsz" target="_blank" class="mobile-only-button">
+            Press here to view model, then press 'View In Browser'
+        </a>
+    </div>
+
+    <div class="model-container">
+      <iframe src="https://a360.co/4j6aKsz" allowfullscreen></iframe>
+      <a href="https://a360.co/4j6aKsz" target="_blank" class="mobile-model-link">View 3D Model</a>
+    </div>
+  </section>
+  
+  <section class="section" id="timeline">
+    <h2>Project Timeline</h2>
+    <div class="timeline-step" onclick="showDetail('design')">February - March: Design & Planning</div>
+    <div class="timeline-step" onclick="showDetail('demolition')">April - June: Mechanical & Structural Repairs</div>
+    <div class="timeline-step" onclick="showDetail('interior')">July - September: Aesthetic Work</div>
+    <div class="timeline-step" onclick="showDetail('finishing')">October: Finishing Touches</div>
+    <div id="timeline-detail"></div>
+  </section>
+  
+ <section class="section" id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <img src="Front View Rendering.png" alt="Plaza View 1" />
+    <img src="Sign View Rendering.png" alt="Plaza View 2" />
+    <img src="Street View Rendering.png" alt="Plaza Rendering" />
+  </div>
+</section>
+  
+  <section class="section" id="summary">
+    <h2>The Vision</h2>
+    <p>Welcome to Georgetown Plaza – A New Chapter Begins</p>
+    <p>Georgetown Plaza is undergoing an exciting transformation. Located in the heart of Stockton, this commercial plaza is being reimagined as more than just a place to shop—it's becoming a destination. Our vision is to create a vibrant, welcoming environment where the community can come together to relax, explore local businesses, and connect with one another. Whether you're visiting for a quick service, grabbing a bite to eat, or simply enjoying the atmosphere, Georgetown Plaza is being designed with you in mind.</p>
+    <p>We’re especially excited to provide a space that caters to a wide range of visitors. With local colleges just minutes away, we see the plaza as the perfect spot for students to unwind between classes or gather with friends in a safe, secure, and well-lit setting. Our revitalization plan includes enhanced lighting, updated facades, thoughtfully designed seating areas, and curated landscaping that brings warmth and life to the property.</p>
+    <p>But the experience won’t end when the sun goes down. Georgetown Plaza is also aiming to bring a touch of nightlife to Stockton. Whether it’s with music, community events, or just the buzz of friends enjoying the evening. By blending commerce, comfort, and community, we hope to spark something truly special in this corner of the city.</p>
+    <p>Renovations are now underway, and we can’t wait to unveil what’s ahead. Georgetown Plaza is becoming a place for everyone, shoppers, service seekers, students, and families alike. We invite you to watch the transformation and be part of this exciting new chapter.</p>
+  </section>
+
+  <section class="section" id="units">
+    <h2>Available Units for Lease</h2>
+    <div class="carousel">
+      <!-- Dynamically populated cards in JS -->
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <ul>
+      <li>Leasing Agent Email: Matias@kpmstockton.com</li>
+      <li>Phone: (209) 744-6850 </li>
+    </ul>
+    <p>Feel free to DM us on instagram if you have any questions about the plaza, or have any questions for us!</p>
+    <a class="btn-instagram" href="https://www.instagram.com/georgetownplaza/">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width:20px;height:20px;margin-right:10px;" />
+      Visit us on Instagram to find live updates!
+    </a>
+  </section>
+
+  <footer>
+    Georgetown Plaza - 4545 Georgetown Pl, Stockton, CA 95207
+    <iframe src="https://www.google.com/maps?q=4545+Georgetown+Pl,+Stockton,+CA+95207&output=embed"></iframe>
+  </footer>
+
+  <script src="script.js"></script>
+
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="Expanded view" />
+</div>
+
+</body>
+</html>
