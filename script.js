@@ -30,14 +30,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carousel');
 
   const units = [
-    { title: "B12", price: 1125 },
-    { title: "B13", price: 1150 },
-    { title: "C34", price: 1175 },
-    { title: "C35", price: 1200 },
-    { title: "E25", price: 1225 },
-    { title: "E26", price: 1250 },
-    { title: "F41", price: 1275 },
-    { title: "F42", price: 1300 }
+    { title: "B12", price: 1500 },
+    { title: "B13", price: 1500 },
+    { title: "C34", price: 1500 },
+    { title: "C35", price: 1500 },
+    { title: "E25", price: 1500 },
+    { title: "E26", price: 1500 },
+    { title: "F41", price: 1500 },
+    { title: "F42", price: 1500 }
   ];
 
   units.forEach((unit, index) => {
