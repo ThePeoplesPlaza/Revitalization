@@ -28,15 +28,25 @@ window.showDetail = showDetail;
 
 document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carousel');
-  const unitTitles = ["B12", "B13", "C34", "C35", "E25", "E26", "F41", "F42"];
 
-  unitTitles.forEach((title, index) => {
+  const units = [
+    { title: "B12", price: 1125 },
+    { title: "B13", price: 1150 },
+    { title: "C34", price: 1175 },
+    { title: "C35", price: 1200 },
+    { title: "E25", price: 1225 },
+    { title: "E26", price: 1250 },
+    { title: "F41", price: 1275 },
+    { title: "F42", price: 1300 }
+  ];
+
+  units.forEach((unit, index) => {
     const card = document.createElement('div');
     card.className = 'unit-card';
     card.innerHTML = `
-      <img src="Unit${index + 1}.png" alt="Unit ${title}"/>
-      <h3>${title}</h3>
-      <p>$${1000 + (index + 1) * 25}/mo • Retail/Office</p>
+      <img src="Unit${index + 1}.png" alt="Unit ${unit.title}"/>
+      <h3>${unit.title}</h3>
+      <p>$${unit.price}/mo • Retail/Office</p>
       <div class="card-buttons">
         <a class="view-btn" href="#">View</a>
         <a class="apply-btn" href="#">Apply</a>
@@ -45,7 +55,6 @@ document.addEventListener('DOMContentLoaded', () => {
     carousel.appendChild(card);
   });
 });
-
 
 document.addEventListener('DOMContentLoaded', () => {
   const galleryImages = document.querySelectorAll('.gallery-grid img');
