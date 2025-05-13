@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     card.innerHTML = `
       <img src="Unit${index + 1}.png" alt="Unit ${unit.title}"/>
       <h3>${unit.title}</h3>
-      <p>$${unit.price.}/mo • Retail/Office</p>
+      <p>$${unit.price}/mo • Retail/Office</p>
       <div class="card-buttons">
         <a class="view-btn" href="#">View</a>
         <a class="apply-btn" href="#">Apply</a>
