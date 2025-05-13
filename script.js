@@ -1,4 +1,3 @@
-
 function scrollCarousel(direction) {
   const carousel = document.querySelector('.carousel');
   const scrollAmount = 300;
@@ -27,6 +26,7 @@ function showDetail(phase) {
 window.showDetail = showDetail;
 
 document.addEventListener('DOMContentLoaded', () => {
+  // --- UNIT CARDS ---
   const carousel = document.querySelector('.carousel');
 
   const units = [
@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const card = document.createElement('div');
     card.className = 'unit-card';
     card.innerHTML = `
-      <img src="Unit${index + 1}.png" alt="Unit ${unit.title}"/>
+      <img src="Unit${index + 1}.png" alt="Unit ${unit.title}" />
       <h3>${unit.title}</h3>
-      <p>$${unit.price}/mo • Retail/Office</p>
+      <p>$${unit.price.toLocaleString()}/mo • Retail/Office</p>
       <div class="card-buttons">
         <a class="view-btn" href="#">View</a>
         <a class="apply-btn" href="#">Apply</a>
@@ -57,9 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     carousel.appendChild(card);
   });
-});
 
-document.addEventListener('DOMContentLoaded', () => {
+  // --- GALLERY LIGHTBOX ---
   const galleryImages = document.querySelectorAll('.gallery-grid img');
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
