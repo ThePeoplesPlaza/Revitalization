@@ -30,14 +30,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carousel');
 
   const units = [
-    { title: "B12", price: 1500 },
-    { title: "B13", price: 1500 },
-    { title: "C34", price: 1500 },
-    { title: "C35", price: 1500 },
-    { title: "E25", price: 1500 },
-    { title: "E26", price: 1500 },
-    { title: "F41", price: 1500 },
-    { title: "F42", price: 1500 }
+    { title: "A1", price: 1700 },
+    { title: "A7", price: 2700 },
+    { title: "B12", price: 770 },
+    { title: "B13", price: 880 },
+    { title: "C34", price: 1265 },
+    { title: "C35", price: 1210 },
+    { title: "C36", price: 1100 },
+    { title: "E25", price: 2950 },
+    { title: "E26", price: 2375 },
+    { title: "F41", price: 1600 },
+    { title: "F42", price: 1600 }
   ];
 
   units.forEach((unit, index) => {
@@ -46,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     card.innerHTML = `
       <img src="Unit${index + 1}.png" alt="Unit ${unit.title}"/>
       <h3>${unit.title}</h3>
-      <p>$${unit.price}/mo • Retail/Office</p>
+      <p>$${unit.price.}/mo • Retail/Office</p>
       <div class="card-buttons">
         <a class="view-btn" href="#">View</a>
         <a class="apply-btn" href="#">Apply</a>
