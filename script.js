@@ -30,17 +30,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carousel');
 
   const units = [
-    { title: "A1", price: 1700 },
-    { title: "A7", price: 2700 },
-    { title: "B12", price: 770 },
-    { title: "B13", price: 880 },
-    { title: "C34", price: 1265 },
-    { title: "C35", price: 1210 },
-    { title: "C36", price: 1100 },
-    { title: "E25", price: 2950 },
-    { title: "E26", price: 2375 },
-    { title: "F41", price: 1600 },
-    { title: "F42", price: 1600 }
+    { title: "A1", price: 1700, viewLink: "unit-a1.html", applyLink: "apply-a1.html" },
+    { title: "A7", price: 2700, viewLink: "unit-a7.html", applyLink: "apply-a7.html" },
+    { title: "B12", price: 770, viewLink: "unit-b12.html", applyLink: "apply-b12.html" },
+    { title: "B13", price: 880, viewLink: "unit-b13.html", applyLink: "apply-b13.html" },
+    { title: "C34", price: 1265, viewLink: "unit-c34.html", applyLink: "apply-c34.html" },
+    { title: "C35", price: 1210, viewLink: "unit-c35.html", applyLink: "apply-c35.html" },
+    { title: "C36", price: 1100, viewLink: "unit-c36.html", applyLink: "apply-c36.html" },
+    { title: "E25", price: 2950, viewLink: "unit-e25.html", applyLink: "apply-e25.html" },
+    { title: "E26", price: 2375, viewLink: "unit-e26.html", applyLink: "apply-e26.html" },
+    { title: "F41", price: 1600, viewLink: "unit-f41.html", applyLink: "apply-f41.html" },
+    { title: "F42", price: 1600, viewLink: "unit-f42.html", applyLink: "apply-f42.html" }
   ];
 
   units.forEach((unit, index) => {
@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
       <h3>${unit.title}</h3>
       <p>$${unit.price.toLocaleString()}/mo • Retail/Office</p>
       <div class="card-buttons">
-        <a class="view-btn" href="#">View</a>
-        <a class="apply-btn" href="#">Apply</a>
+        <a class="view-btn" href="${unit.viewLink}" target="_blank">View</a>
+        <a class="apply-btn" href="${unit.applyLink}" target="_blank">Apply</a>
       </div>
     `;
     carousel.appendChild(card);
