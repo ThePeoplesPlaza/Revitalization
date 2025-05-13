@@ -73,20 +73,27 @@ nav a {
   width: 100%;
   border-radius: 8px;
 }
+
 .card-buttons {
-  margin-top: 10px;
+  margin-top: 12px;
   display: flex;
+  flex-direction: column;
   gap: 10px;
 }
-.view-btn, .apply-btn {
+.view-btn,
+.apply-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
   text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 20px;
-  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 600;
   color: white;
+  box-sizing: border-box;
+  transition: background-color 0.25s ease;
 }
-.view-btn { background-color: #3b82f6; }
-.apply-btn { background-color: #f59e0b; }
+
 .carousel-btn {
   background: rgba(0,0,0,0.5);
   color: white;
@@ -245,4 +252,21 @@ footer iframe {
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
+}
+
+
+.view-btn {
+  background-color: #2563eb;
+}
+
+.view-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.apply-btn {
+  background-color: #f59e0b;
+}
+
+.apply-btn:hover {
+  background-color: #d97706;
 }
