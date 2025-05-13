@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
       <h3>${unit.title}</h3>
       <p>$${unit.price.toLocaleString()}/mo • Retail/Office</p>
       <div class="card-buttons">
-        <a class="view-btn" href="${unit.viewLink}" target="_blank">View</a>
-        <a class="apply-btn" href="${unit.applyLink}" target="_blank">Apply</a>
+        <a class="view-btn" href="${unit.viewLink}" target="_blank">View Listing</a>
+        <a class="apply-btn" href="${unit.applyLink}" target="_blank">Schdule Showing</a>
       </div>
     `;
     carousel.appendChild(card);
