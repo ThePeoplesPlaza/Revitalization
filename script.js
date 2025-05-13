@@ -40,7 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
     { title: "E25", price: 2950, viewLink: "unit-e25.html", applyLink: "apply-e25.html" },
     { title: "E26", price: 2375, viewLink: "unit-e26.html", applyLink: "apply-e26.html" },
     { title: "F41", price: 1600, viewLink: "unit-f41.html", applyLink: "apply-f41.html" },
-    { title: "F42", price: 1600, viewLink: "unit-f42.html", applyLink: "apply-f42.html" }
+    { title: "F42", price: 1600, viewLink: "unit-f42.html", applyLink: "apply-f42.html" },
+    { title: "Plaza Lease for Events", price: 2000, viewLink: "unit-G.html", applyLink: "apply-G.html" }
   ];
 
   units.forEach((unit, index) => {
