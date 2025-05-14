@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carousel');
 
   const units = [
-    { title: "A1", price: 1700, viewLink: "unit-a1.html", applyLink: "apply-a1.html" },
+    { title: "A1", price: 1700, viewLink: "unit-template.html", applyLink: "apply-a1.html" },
     { title: "A7", price: 2700, viewLink: "unit-a7.html", applyLink: "apply-a7.html" },
     { title: "B12", price: 770, viewLink: "unit-b12.html", applyLink: "apply-b12.html" },
     { title: "B13", price: 880, viewLink: "unit-b13.html", applyLink: "apply-b13.html" },
