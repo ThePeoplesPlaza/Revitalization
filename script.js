@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const card = document.createElement('div');
     card.className = 'unit-card';
     card.innerHTML = `
-      <img src="Unit${index + 1}.png" alt="Unit ${unit.title}" />
+      <img src="Unit${index + 1}.jpg" alt="Unit ${unit.title}" />
       <h3>${unit.title}</h3>
       <p>$${unit.price.toLocaleString()}/mo • Retail/Office</p>
       <div class="card-buttons">
