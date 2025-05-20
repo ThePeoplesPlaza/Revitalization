@@ -30,18 +30,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carousel');
 
   const units = [
-    { title: "A1", price: 1700, viewLink: "unit-template.html", applyLink: "apply-a1.html" },
-    { title: "A7", price: 2700, viewLink: "unit-a7.html", applyLink: "apply-a7.html" },
+    { title: "A1", price: 1700, viewLink: "https://showmojo.com/l/7377870017/4545-georgetown-pl-a1-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://showmojo.com/l/7377870017/4545-georgetown-pl-a1-stockton-ca-95207?fullscreen=true&g=2&sd=true" },
+    { title: "A7", price: 2700, viewLink: "https://showmojo.com/l/73e4cc0017/4545-georgetown-pl-a7-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://showmojo.com/l/73e4cc0017/4545-georgetown-pl-a7-stockton-ca-95207?fullscreen=true&g=2&sd=true" },
     { title: "B12", price: 770, viewLink: "https://showmojo.com/l/7433951017/4545-georgetown-pl-b12-stockton-ca-95207?g=2&sd=true", applyLink: "https://showmojo.com/l/7433951017/4545-georgetown-pl-b12-stockton-ca-95207?g=2&sd=true" },
     { title: "B13", price: 880, viewLink: "unit-b13.html", applyLink: "apply-b13.html" },
-    { title: "C34", price: 1265, viewLink: "unit-c34.html", applyLink: "apply-c34.html" },
-    { title: "C35", price: 1210, viewLink: "unit-c35.html", applyLink: "apply-c35.html" },
-    { title: "C36", price: 1100, viewLink: "unit-c36.html", applyLink: "apply-c36.html" },
-    { title: "E25", price: 2950, viewLink: "unit-e25.html", applyLink: "apply-e25.html" },
-    { title: "E26", price: 2375, viewLink: "unit-e26.html", applyLink: "apply-e26.html" },
-    { title: "F41", price: 1600, viewLink: "unit-f41.html", applyLink: "apply-f41.html" },
-    { title: "F42", price: 1600, viewLink: "unit-f42.html", applyLink: "apply-f42.html" },
-    { title: "Plaza Lease for Events", price: 2000, viewLink: "unit-G.html", applyLink: "apply-G.html" }
+    { title: "C34", price: 1265, viewLink: "https://showmojo.com/l/74dfacf017/4545-georgetown-pl-c34-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://showmojo.com/l/74dfacf017/4545-georgetown-pl-c34-stockton-ca-95207?fullscreen=true&g=2&sd=true" },
+    { title: "C35", price: 1210, viewLink: "https://showmojo.com/l/752cfd3017/4545-georgetown-pl-c35-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://showmojo.com/l/752cfd3017/4545-georgetown-pl-c35-stockton-ca-95207?fullscreen=true&g=2&sd=true" },
+    { title: "C36", price: 1100, viewLink: "https://showmojo.com/l/7577298017/4545-georgetown-pl-c36-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://showmojo.com/l/7577298017/4545-georgetown-pl-c36-stockton-ca-95207?fullscreen=true&g=2&sd=true" },
+    { title: "E25", price: 2950, viewLink: "https://showmojo.com/l/75c31a7017/4545-georgetown-pl-e25-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://showmojo.com/l/75c31a7017/4545-georgetown-pl-e25-stockton-ca-95207?fullscreen=true&g=2&sd=true" },
+    { title: "E26", price: 2375, viewLink: "https://showmojo.com/l/760dc2e017/4545-georgetown-pl-e26-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://showmojo.com/l/760dc2e017/4545-georgetown-pl-e26-stockton-ca-95207?fullscreen=true&g=2&sd=true" },
+    { title: "F41", price: 1600, viewLink: "https://showmojo.com/l/765bdab017/4545-georgetown-pl-f41-stockton-ca-95207?g=2&sd=true", applyLink: "https://showmojo.com/l/765bdab017/4545-georgetown-pl-f41-stockton-ca-95207?g=2&sd=true" },
+    { title: "F42", price: 1600, viewLink: "https://showmojo.com/l/76aa186017/4545-georgetown-pl-f42-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://showmojo.com/l/76aa186017/4545-georgetown-pl-f42-stockton-ca-95207?fullscreen=true&g=2&sd=true" },
+    { title: "Plaza Lease for Events", price: 2000, viewLink: "https://showmojo.com/l/76fbfd2017/4545-georgetown-pl-the-people-s-plaza-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://showmojo.com/l/76fbfd2017/4545-georgetown-pl-the-people-s-plaza-stockton-ca-95207?fullscreen=true&g=2&sd=true" }
   ];
 
   units.forEach((unit, index) => {
