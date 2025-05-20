@@ -96,7 +96,6 @@
 <span class="lightbox-close">×</span>
 <img alt="Expanded view" id="lightbox-img" src=""/>
 </div>
-
 <!-- Firebase SDKs -->
 <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
@@ -106,16 +105,17 @@
 <div id="messages" style="overflow-y:auto;height:300px;padding:5px;border-radius:8px;background:#0f172a;margin-bottom:10px;"></div>
 <input id="messageInput" placeholder="Type a message..." style="width:100%;padding:8px;border-radius:6px;border:none;" type="text"/>
 </div>
+
 <script>
-  // Your Firebase config from Firebase Console
   const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyCjvR2slygNxyW1pZSKFRyX2mbt9uu92Ks",
+    authDomain: "the-people-s-plaza-chat.firebaseapp.com",
+    databaseURL: "https://the-people-s-plaza-chat-default-rtdb.firebaseio.com",
+    projectId: "the-people-s-plaza-chat",
+    storageBucket: "the-people-s-plaza-chat.firebasestorage.app",
+    messagingSenderId: "67181448241",
+    appId: "1:67181448241:web:34907b70a4bd8ae7831910",
+    measurementId: "G-4R7LMEW3WK"
   };
   firebase.initializeApp(firebaseConfig);
   const db = firebase.database();
@@ -139,5 +139,6 @@
     messagesDiv.scrollTop = messagesDiv.scrollHeight;
   });
 </script>
+
 </body>
 </html>
