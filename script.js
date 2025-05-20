@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const units = [
     { title: "A1", price: 1700, viewLink: "unit-template.html", applyLink: "apply-a1.html" },
     { title: "A7", price: 2700, viewLink: "unit-a7.html", applyLink: "apply-a7.html" },
-    { title: "B12", price: 770, viewLink: "unit-b12.html", applyLink: "apply-b12.html" },
+    { title: "B12", price: 770, viewLink: "https://showmojo.com/l/7433951017/4545-georgetown-pl-b12-stockton-ca-95207?g=2&sd=true", applyLink: "https://showmojo.com/l/7433951017/4545-georgetown-pl-b12-stockton-ca-95207?g=2&sd=true" },
     { title: "B13", price: 880, viewLink: "unit-b13.html", applyLink: "apply-b13.html" },
     { title: "C34", price: 1265, viewLink: "unit-c34.html", applyLink: "apply-c34.html" },
     { title: "C35", price: 1210, viewLink: "unit-c35.html", applyLink: "apply-c35.html" },
