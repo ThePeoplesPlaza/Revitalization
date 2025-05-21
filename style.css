@@ -151,7 +151,7 @@ footer iframe {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1700px) {
   .model-container {
     display: none;
   }
@@ -218,7 +218,7 @@ footer iframe {
     font-size: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1700px) {
     .mobile-only-button-wrapper {
         display: block;
     }
