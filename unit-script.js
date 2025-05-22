@@ -1,23 +1,17 @@
-
 function toggleGallery() {
   const moreImages = document.querySelector('.more-images');
   const button = document.querySelector('.toggle-btn');
-  if (moreImages.classList.contains('hidden')) {
-    moreImages.classList.remove('hidden');
-    button.textContent = "Show Fewer";
-  } else {
-    moreImages.classList.add('hidden');
-    button.textContent = "Show All Photos";
-  }
+  moreImages.classList.toggle('hidden');
+  button.textContent = moreImages.classList.contains('hidden') ? 'Show All Photos' : 'Hide Photos';
 }
 
-function openLightbox(imgElement) {
+function openLightbox(img) {
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
-  lightbox.style.display = "block";
-  lightboxImg.src = imgElement.src;
+  lightbox.style.display = 'block';
+  lightboxImg.src = img.src;
 }
 
 function closeLightbox() {
-  document.getElementById('lightbox').style.display = "none";
+  document.getElementById('lightbox').style.display = 'none';
 }

@@ -1,73 +1,24 @@
-.info-cards {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  background: white;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  flex-wrap: wrap;
-}
-
-.card-listing {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 15px;
-  flex: 1 1 60%;
-}
-
-.card {
-  background: #f9f9f9;
-  padding: 15px 20px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
-}
-.card .label {
-  font-size: 14px;
-  color: #666;
-  display: block;
-}
-.card .value {
-  font-size: 18px;
-  font-weight: 600;
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background-color: #f6f8fa;
   color: #333;
 }
 
-.card-contact {
-  flex: 1 1 35%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
-  text-align: right;
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.contact-buttons {
-  margin-bottom: 15px;
+.property-header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
 }
-.contact-buttons .btn {
-  margin-left: 10px;
+.property-header h2 {
+  font-size: 18px;
+  color: #666;
 }
-.contact-name {
-  font-size: 16px;
-}
-
-@media (max-width: 768px) {
-  .info-cards {
-    flex-direction: column;
-    text-align: left;
-  }
-  .card-contact {
-    align-items: flex-start;
-    text-align: left;
-    margin-top: 20px;
-  }
-  .contact-buttons .btn {
-    margin: 10px 10px 0 0;
-  }
-}
-
 
 .gallery-grid {
   display: flex;
@@ -84,5 +35,104 @@
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.toggle-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.info-box.improved {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  gap: 40px;
+}
+
+.info-box.improved .info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.info-box.improved .contact {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-box.improved .actions {
+  margin-bottom: 10px;
+}
+
+.info-box.improved .actions .btn {
+  margin-left: 10px;
+}
+
+.info-box.improved .contact-name {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .info-box.improved {
+    flex-direction: column;
+    text-align: left;
+  }
+  .info-box.improved .contact {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .info-box.improved .actions .btn {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+.lightbox-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
   cursor: pointer;
 }
