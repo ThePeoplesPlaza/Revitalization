@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Inter', sans-serif;
   background: #f4f6f8;
@@ -32,6 +33,23 @@ body {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.more-images.hidden {
+  display: none;
+}
+.toggle-btn {
+  display: block;
+  margin: 10px auto 0;
+  padding: 10px 20px;
+  font-weight: 600;
+  background: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.toggle-btn:hover {
+  background: #3f51b5;
 }
 .info-box {
   display: flex;

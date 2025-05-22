@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>4545 Georgetown Pl, Suite A1</title>
   <link rel="stylesheet" href="unit-style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
   <div class="container">
@@ -16,14 +17,18 @@
 
     <section class="gallery">
       <div class="gallery-grid">
-        <img src="Unit1.jpg" alt="Front Exterior">
-        <img src="a1pic1.jpg" alt="Interior 1">
-        <img src="a1pic2.jpg" alt="Interior 2">
-        <img src="a1pic3.jpg" alt="Interior 3">
-        <img src="a1pic4.jpg" alt="Interior 4">
-        <img src="a1pic5.jpg" alt="Interior 5">
-        <img src="a1pic6.jpg" alt="Interior 6">
+        <img src="Unit1.jpg" alt="Front Exterior" />
+        <img src="a1pic1.jpg" alt="Interior 1" />
+        <img src="a1pic2.jpg" alt="Interior 2" />
+
+        <div class="more-images hidden">
+          <img src="a1pic3.jpg" alt="Interior 3" />
+          <img src="a1pic4.jpg" alt="Interior 4" />
+          <img src="a1pic5.jpg" alt="Interior 5" />
+          <img src="a1pic6.jpg" alt="Interior 6" />
+        </div>
       </div>
+      <button class="toggle-btn" onclick="toggleGallery()">Show All Photos</button>
     </section>
 
     <section class="info-box">
@@ -42,5 +47,6 @@
       </div>
     </section>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
