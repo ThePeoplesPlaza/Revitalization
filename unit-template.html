@@ -16,18 +16,19 @@
     </header>
 
     <section class="gallery">
-      <div class="gallery-grid">
-        <img src="Unit1.jpg" alt="Front Exterior" />
-        <img src="a1pic1.jpg" alt="Interior 1" />
-        <img src="a1pic2.jpg" alt="Interior 2" />
-
-        <div class="more-images hidden">
-          <img src="a1pic3.jpg" alt="Interior 3" />
-          <img src="a1pic4.jpg" alt="Interior 4" />
-          <img src="a1pic5.jpg" alt="Interior 5" />
-          <img src="a1pic6.jpg" alt="Interior 6" />
-        </div>
+      <div class="gallery-grid preview">
+        <img src="Unit1.jpg" alt="Front Exterior" onclick="openLightbox(this)" />
+        <img src="a1pic1.jpg" alt="Interior 1" onclick="openLightbox(this)" />
+        <img src="a1pic2.jpg" alt="Interior 2" onclick="openLightbox(this)" />
       </div>
+
+      <div class="gallery-grid more-images hidden">
+        <img src="a1pic3.jpg" alt="Interior 3" onclick="openLightbox(this)" />
+        <img src="a1pic4.jpg" alt="Interior 4" onclick="openLightbox(this)" />
+        <img src="a1pic5.jpg" alt="Interior 5" onclick="openLightbox(this)" />
+        <img src="a1pic6.jpg" alt="Interior 6" onclick="openLightbox(this)" />
+      </div>
+
       <button class="toggle-btn" onclick="toggleGallery()">Show All Photos</button>
     </section>
 
@@ -47,6 +48,12 @@
       </div>
     </section>
   </div>
-  <script src="unit-script.js"></script>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close" onclick="closeLightbox()">×</span>
+    <img id="lightbox-img" class="lightbox-content" />
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
