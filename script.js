@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
     { title: "E26", price: 2375, viewLink: "https://showmojo.com/l/760dc2e017/4545-georgetown-pl-e26-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
     { title: "F41", price: 1600, viewLink: "https://showmojo.com/l/765bdab017/4545-georgetown-pl-f41-stockton-ca-95207?g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
     { title: "F42", price: 1600, viewLink: "https://showmojo.com/l/76aa186017/4545-georgetown-pl-f42-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "Plaza Lease for Events", price: 2000, viewLink: "https://showmojo.com/l/76fbfd2017/4545-georgetown-pl-the-people-s-plaza-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" }
   ];
 
   units.forEach((unit, index) => {
