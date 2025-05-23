@@ -92,7 +92,22 @@ nav a {
   box-sizing: border-box;
   transition: background-color 0.25s ease;
 }
-
+.apply-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  background-color: #f59e0b;
+  box-sizing: border-box;
+  transition: background-color 0.25s ease;
+}
+.apply-btn:hover {
+  background-color: #d97706;
+}
 .carousel-btn {
   background: rgba(0,0,0,0.5);
   color: white;
