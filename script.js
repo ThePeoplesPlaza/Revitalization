@@ -31,15 +31,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const units = [
     { title: "A1", price: 1700, viewLink: "unit-template.html", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "A7", price: 2700, viewLink: "https://showmojo.com/l/73e4cc0017/4545-georgetown-pl-a7-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "B12", price: 770, viewLink: "https://showmojo.com/l/7433951017/4545-georgetown-pl-b12-stockton-ca-95207?g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "C34", price: 1265, viewLink: "https://showmojo.com/l/74dfacf017/4545-georgetown-pl-c34-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "C35", price: 1210, viewLink: "https://showmojo.com/l/752cfd3017/4545-georgetown-pl-c35-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "C36", price: 1100, viewLink: "https://showmojo.com/l/7577298017/4545-georgetown-pl-c36-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "E25", price: 2950, viewLink: "https://showmojo.com/l/75c31a7017/4545-georgetown-pl-e25-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "E26", price: 2375, viewLink: "https://showmojo.com/l/760dc2e017/4545-georgetown-pl-e26-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "F41", price: 1600, viewLink: "https://showmojo.com/l/765bdab017/4545-georgetown-pl-f41-stockton-ca-95207?g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "F42", price: 1600, viewLink: "https://showmojo.com/l/76aa186017/4545-georgetown-pl-f42-stockton-ca-95207?fullscreen=true&g=2&sd=true", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
+    { title: "A7", price: 2700, viewLink: "https://showmojo.com/l/73e4cc0017/4545-georgetown-pl-a7-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
+    { title: "B12", price: 770, viewLink: "https://showmojo.com/l/7433951017/4545-georgetown-pl-b12-stockton-ca-95207?g=2&sd=true"},
+    { title: "C34", price: 1265, viewLink: "https://showmojo.com/l/74dfacf017/4545-georgetown-pl-c34-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
+    { title: "C35", price: 1210, viewLink: "https://showmojo.com/l/752cfd3017/4545-georgetown-pl-c35-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
+    { title: "C36", price: 1100, viewLink: "https://showmojo.com/l/7577298017/4545-georgetown-pl-c36-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
+    { title: "E25", price: 2950, viewLink: "https://showmojo.com/l/75c31a7017/4545-georgetown-pl-e25-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
+    { title: "E26", price: 2375, viewLink: "https://showmojo.com/l/760dc2e017/4545-georgetown-pl-e26-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
+    { title: "F41", price: 1600, viewLink: "https://showmojo.com/l/765bdab017/4545-georgetown-pl-f41-stockton-ca-95207?g=2&sd=true"},
+    { title: "F42", price: 1600, viewLink: "https://showmojo.com/l/76aa186017/4545-georgetown-pl-f42-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
   ];
 
   units.forEach((unit, index) => {
@@ -51,7 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
       <p>$${unit.price.toLocaleString()}/mo • Retail/Office</p>
       <div class="card-buttons">
         <a class="view-btn" href="${unit.viewLink}" target="_blank">View Listing</a>
-        <a class="apply-btn" href="${unit.applyLink}" target="_blank">Schedule Showing</a>
       </div>
     `;
     carousel.appendChild(card);
