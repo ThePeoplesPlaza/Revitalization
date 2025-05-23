@@ -80,7 +80,6 @@ nav a {
   flex-direction: column;
   gap: 10px;
 }
-.view-btn,
 .apply-btn {
   display: block;
   width: 100%;
