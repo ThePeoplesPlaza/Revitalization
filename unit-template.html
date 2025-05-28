@@ -7,6 +7,8 @@
   <title>4545 Georgetown Pl, Suite A1</title>
   <link rel="stylesheet" href="unit-style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -15,22 +17,24 @@
       <h2>850 Sqft of Office Space Available in Stockton, CA 95219</h2>
     </header>
 
-    <section class="gallery">
-      <div class="gallery-grid preview">
-        <img src="Unit1.jpg" alt="Front Exterior" onclick="openLightbox(this)" />
-      </div>
+    
+<section class="gallery">
+  <div class="swiper-container main-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="Unit1.jpg" alt="Front Exterior" /></div>
+      <div class="swiper-slide"><img src="a1pic1.jpg" alt="Interior 1" /></div>
+      <div class="swiper-slide"><img src="a1pic2.jpg" alt="Interior 2" /></div>
+      <div class="swiper-slide"><img src="a1pic3.jpg" alt="Interior 3" /></div>
+      <div class="swiper-slide"><img src="a1pic4.jpg" alt="Interior 4" /></div>
+      <div class="swiper-slide"><img src="a1pic5.jpg" alt="Interior 5" /></div>
+      <div class="swiper-slide"><img src="a1pic6.jpg" alt="Interior 6" /></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
 
-      <div class="gallery-grid more-images hidden">
-        <img src="a1pic1.jpg" alt="Interior 1" onclick="openLightbox(this)" />
-        <img src="a1pic2.jpg" alt="Interior 2" onclick="openLightbox(this)" />
-        <img src="a1pic3.jpg" alt="Interior 3" onclick="openLightbox(this)" />
-        <img src="a1pic4.jpg" alt="Interior 4" onclick="openLightbox(this)" />
-        <img src="a1pic5.jpg" alt="Interior 5" onclick="openLightbox(this)" />
-        <img src="a1pic6.jpg" alt="Interior 6" onclick="openLightbox(this)" />
-      </div>
-
-      <button class="toggle-btn" onclick="toggleGallery()">Show All Photos</button>
-    </section>
 
     <section class="info-box improved">
       <div class="info">
@@ -65,6 +69,6 @@
     <img id="lightbox-img" class="lightbox-content" />
   </div>
 
-  <script src="unit-script.js?v=1" defer></script>
+  <script src="unit-script.js"></script>
 </body>
 </html>
