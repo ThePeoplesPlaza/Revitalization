@@ -15,7 +15,7 @@ body {
   margin-bottom: 10px;
 }
 .nav-bar {
-  background: #b0d4f1;
+  background: #7393B3;
   text-align: center;
   padding: 20px;
 }
@@ -40,7 +40,7 @@ nav a {
   padding: 40px 20px;
   max-width: 1000px;
   margin: 40px auto;
-  background: #e0f2ff;
+  background: #7393B3
   border-radius: 12px;
 }
 .model-container iframe {
@@ -50,7 +50,7 @@ nav a {
   border: none;
 }
 .timeline-step {
-  background: #9ecbf3;
+  background: #7393B3;
   padding: 15px;
   margin: 10px 0;
   border-radius: 8px;
@@ -65,7 +65,7 @@ nav a {
 }
 .unit-card {
   flex: 0 0 280px;
-  background: #b0d4f1;
+  background: #7393B3;
   padding: 16px;
   border-radius: 12px;
 }
@@ -147,7 +147,7 @@ nav a {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 footer {
-  background: #b0d4f1;
+  background: #7393B3;
   text-align: center;
   padding: 40px;
   color: white;
