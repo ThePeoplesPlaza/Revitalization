@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+  
   const swiper = new Swiper('.main-swiper', {
     loop: true,
     autoplay: {
@@ -48,5 +49,19 @@ document.addEventListener('DOMContentLoaded', () => {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 10
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      1024: {
+        slidesPerView: 1,
+        spaceBetween: 30
+      }
+    }
   });
 });

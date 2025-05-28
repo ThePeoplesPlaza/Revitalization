@@ -275,3 +275,28 @@ body {
     font-size: 16px;
   }
 }
+
+
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 45% !important;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    color: #1e3a8a;
+  }
+
+  .property-header {
+    padding: 20px;
+  }
+
+  .property-header h1 {
+    font-size: 20px;
+  }
+
+  .property-header h2 {
+    font-size: 14px;
+  }
+}
