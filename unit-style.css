@@ -141,15 +141,13 @@ body {
 
 
 .dark-header {
-  background-color: #1e3a8a;
-  color: white;
+    color: white;
   width: 100vw;
   margin-left: calc(-1 * (100vw - 100%)/2);
   padding: 40px 0;
   text-align: center;
 
-  background-color: #1e3a8a;
-  padding: 30px 20px;
+    padding: 30px 20px;
   border-radius: 12px;
   color: white;
 }
