@@ -2,8 +2,8 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #F0FFFF;
-  color: #ffffff;
+  background: #0f172a;
+  color: #e0f2fe;
 }
 .hero {
   background: url('Front View Rendering.png') center/cover no-repeat;
@@ -15,7 +15,7 @@ body {
   margin-bottom: 10px;
 }
 .nav-bar {
-  background: #7393B3;
+  background: #1e3a8a;
   text-align: center;
   padding: 20px;
 }
@@ -40,7 +40,7 @@ nav a {
   padding: 40px 20px;
   max-width: 1000px;
   margin: 40px auto;
-  background: #7393B3
+  background: #1e293b;
   border-radius: 12px;
 }
 .model-container iframe {
@@ -50,7 +50,7 @@ nav a {
   border: none;
 }
 .timeline-step {
-  background: #7393B3;
+  background: #1e40af;
   padding: 15px;
   margin: 10px 0;
   border-radius: 8px;
@@ -65,7 +65,7 @@ nav a {
 }
 .unit-card {
   flex: 0 0 280px;
-  background: #7393B3;
+  background: #1e3a8a;
   padding: 16px;
   border-radius: 12px;
 }
@@ -147,7 +147,7 @@ nav a {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 footer {
-  background: #7393B3;
+  background: #1e3a8a;
   text-align: center;
   padding: 40px;
   color: white;
