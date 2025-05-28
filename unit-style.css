@@ -239,3 +239,39 @@ body {
 .swiper-pagination {
   margin-top: 10px;
 }
+
+
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  .main-swiper {
+    max-width: 100%;
+  }
+
+  .swiper-slide img {
+    max-height: 300px;
+  }
+
+  .info-box.improved {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .info-box.improved .contact {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .agent-info {
+    padding: 15px;
+  }
+
+  .property-header h1 {
+    font-size: 22px;
+  }
+
+  .property-header h2 {
+    font-size: 16px;
+  }
+}
