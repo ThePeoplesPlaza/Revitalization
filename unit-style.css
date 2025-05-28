@@ -205,3 +205,37 @@ body {
   border-radius: 10px;
   object-fit: contain;
 }
+
+
+
+/* Swiper Container */
+.swiper-container,
+.main-swiper {
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto; /* adds spacing above/below */
+  box-sizing: border-box;
+  padding-bottom: 40px; /* space for dots */
+}
+
+/* Swiper Slides */
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+/* Ensure dots stay clear from other sections */
+.swiper-pagination {
+  margin-top: 10px;
+}
