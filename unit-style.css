@@ -277,7 +277,39 @@ body {
 }
 
 
+
+.main-swiper {
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
 @media (max-width: 768px) {
+  .main-swiper {
+    max-width: 100%;
+    padding: 0 10px 40px 10px;
+  }
+
+  .swiper-slide img {
+    max-height: 250px;
+  }
+
   .swiper-button-next,
   .swiper-button-prev {
     top: 45% !important;
