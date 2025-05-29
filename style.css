@@ -285,3 +285,14 @@ footer iframe {
 .apply-btn:hover {
   background-color: #d97706;
 }
+
+
+/* === Hero Title Blur Backdrop === */
+.hero-title-backdrop {
+  display: inline-block;
+  background-color: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(6px);
+  padding: 16px 24px;
+  border-radius: 12px;
+  margin-top: 20px;
+}

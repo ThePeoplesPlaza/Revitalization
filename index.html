@@ -1,117 +1,106 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The People's Plaza</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="Georgetown Logo v3.png" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The People's Plaza</title>
+<link href="style.css" rel="stylesheet"/>
+<link href="Georgetown Logo v3.png" rel="icon"/>
 </head>
 <body>
-  <header class="hero">
-    <img src="Georgetown Logo v3.png" class="logo" alt="Georgetown Logo" />
-    <h1>The People's Plaza Revitalization Project</h1>
-    <hr class="nav-separator" />
-  </header>
-  <div class="nav-bar">
-    <nav>
-      <a href="#model">3D Model</a>
-      <a href="#timeline">Timeline</a>
-      <a href="#The Vision">The Vision</a>
-      <a href="#units">Units</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-
-  <section class="section" id="model">
-    <h2>3D Conceptual Model</h2>
-    <div class="mobile-only-button-wrapper">
-        <a href="https://a360.co/4j6aKsz" target="_blank" class="mobile-only-button">
+<header class="hero">
+<img alt="Georgetown Logo" class="logo" src="Georgetown Logo v3.png"/>
+<div class="hero-title-backdrop"><h1>The People's Plaza Revitalization Project</h1></div>
+<hr class="nav-separator"/>
+</header>
+<div class="nav-bar">
+<nav>
+<a href="#model">3D Model</a>
+<a href="#timeline">Timeline</a>
+<a href="#The Vision">The Vision</a>
+<a href="#units">Units</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+<section class="section" id="model">
+<h2>3D Conceptual Model</h2>
+<div class="mobile-only-button-wrapper">
+<a class="mobile-only-button" href="https://a360.co/4j6aKsz" target="_blank">
             Press here to view model, then press 'Continue In Browser'
         </a>
-    </div>
-
-    <div class="model-container">
-      <iframe src="https://a360.co/4j6aKsz" allowfullscreen></iframe>
-      <a href="https://a360.co/4j6aKsz" target="_blank" class="mobile-model-link">View 3D Model</a>
-    </div>
-  </section>
-
-  <section class="section" id="timeline">
-    <h2>Project Timeline</h2>
-    <div class="timeline-step" onclick="showDetail('design')">February - March: Design & Planning</div>
-    <div class="timeline-step" onclick="showDetail('demolition')">April - June: Mechanical & Structural Repairs</div>
-    <div class="timeline-step" onclick="showDetail('interior')">July - September: Aesthetic Work</div>
-    <div class="timeline-step" onclick="showDetail('finishing')">October: Finishing Touches</div>
-    <div id="timeline-detail"></div>
-  </section>
-
- <section class="section" id="gallery">
-  <h2>Gallery</h2>
-  <div class="gallery-grid">
-    <img src="Before1.jpg" alt="Plaza View 1" />
-    <img src="Before2.jpg" alt="Plaza View 2" />
-    <img src="Before3.jpg" alt="Plaza View 3" />
-    <img src="Before4.jpg" alt="Plaza View 4" />
-    <img src="Before5.jpg" alt="Plaza View 5" />
-    <img src="Before6.jpg" alt="Plaza View 6" />
-    <img src="Before7.jpg" alt="Plaza View 7" />
-    <img src="Before8.jpg" alt="Plaza View 8" />
-  </div>
+</div>
+<div class="model-container">
+<iframe allowfullscreen="" src="https://a360.co/4j6aKsz"></iframe>
+<a class="mobile-model-link" href="https://a360.co/4j6aKsz" target="_blank">View 3D Model</a>
+</div>
 </section>
-
-  <section class="section" id="The Vision">
-    <h2>The Vision</h2>
-  <div class="gallery-grid">
-    <img src="Front View Rendering.png" alt="Plaza View 1" />
-    <img src="Sign View Rendering.png" alt="Plaza View 2" />
-    <img src="Street View Rendering.png" alt="Plaza Rendering" />
-  </div>
-    <p>Welcome to The People's Plaza – A New Chapter Begins</p>
-    <p>The People's Plaza is undergoing an exciting transformation. Located in the heart of Stockton, this commercial plaza is being reimagined as more than just a place to shop—it's becoming a destination. Our vision is to create a vibrant, welcoming environment where the community can come together to relax, explore local businesses, and connect with one another. Whether you're visiting for a quick service, grabbing a bite to eat, or simply enjoying the atmosphere, The People's Plaza is being designed with you in mind.</p>
-    <p>We’re especially excited to provide a space that caters to a wide range of visitors. With local colleges just minutes away, we see the plaza as the perfect spot for students to unwind between classes or gather with friends in a safe, secure, and well-lit setting. Our revitalization plan includes enhanced lighting, updated facades, thoughtfully designed seating areas, and curated landscaping that brings warmth and life to the property.</p>
-    <p>But the experience won’t end when the sun goes down. The People's Plaza is also aiming to bring a touch of nightlife to Stockton. Whether it’s with music, community events, or just the buzz of friends enjoying the evening. By blending commerce, comfort, and community, we hope to spark something truly special in this corner of the city.</p>
-    <p>Renovations are now underway, and we can’t wait to unveil what’s ahead. The People's Plaza is becoming a place for everyone, shoppers, service seekers, students, and families alike. We invite you to watch the transformation and be part of this exciting new chapter.</p>
-  </section>
-
-  <section class="section" id="units">
-    <h2>Available Units for Lease</h2>
-    <div class="carousel">
-      <!-- Dynamically populated cards in JS -->
-    </div>
-  </section>
-
-  <section class="section" id="book-plaza">
-    <h2>Book Our Plaza For Your Event!</h2>
-    <p>The People's Plaza is now offering our vibrant common area for daily event rentals. Whether you're planning a farmers market, art walk, community gathering, or another special event, our revitalized plaza is the perfect venue. We're excited to support local creativity, commerce, and culture—right in the heart of Stockton.</p>
-    <p>Ready to bring your event to life? Let’s make it happen.</p>
-    <a class="apply-btn" href="https://app.usemotion.com/meet/matias-heredia/showing" target="_blank">Book the Plaza</a>
-  </section>
-
-  <section class="section" id="contact">
-    <h2>Contact Us</h2>
-    <ul>
-      <li>Leasing Agent Email: Matias@kpmstockton.com</li>
-      <li>Phone: (209) 774-6850 </li>
-    </ul>
-    <p>Feel free to DM us on instagram if you have any questions about the plaza, or have any questions for us!</p>
-    <a class="btn-instagram" href="https://www.instagram.com/the.peoples.plaza/">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width:20px;height:20px;margin-right:10px;" />
+<section class="section" id="timeline">
+<h2>Project Timeline</h2>
+<div class="timeline-step" onclick="showDetail('design')">February - March: Design &amp; Planning</div>
+<div class="timeline-step" onclick="showDetail('demolition')">April - June: Mechanical &amp; Structural Repairs</div>
+<div class="timeline-step" onclick="showDetail('interior')">July - September: Aesthetic Work</div>
+<div class="timeline-step" onclick="showDetail('finishing')">October: Finishing Touches</div>
+<div id="timeline-detail"></div>
+</section>
+<section class="section" id="gallery">
+<h2>Gallery</h2>
+<div class="gallery-grid">
+<img alt="Plaza View 1" src="Before1.jpg"/>
+<img alt="Plaza View 2" src="Before2.jpg"/>
+<img alt="Plaza View 3" src="Before3.jpg"/>
+<img alt="Plaza View 4" src="Before4.jpg"/>
+<img alt="Plaza View 5" src="Before5.jpg"/>
+<img alt="Plaza View 6" src="Before6.jpg"/>
+<img alt="Plaza View 7" src="Before7.jpg"/>
+<img alt="Plaza View 8" src="Before8.jpg"/>
+</div>
+</section>
+<section class="section" id="The Vision">
+<h2>The Vision</h2>
+<div class="gallery-grid">
+<img alt="Plaza View 1" src="Front View Rendering.png"/>
+<img alt="Plaza View 2" src="Sign View Rendering.png"/>
+<img alt="Plaza Rendering" src="Street View Rendering.png"/>
+</div>
+<p>Welcome to The People's Plaza – A New Chapter Begins</p>
+<p>The People's Plaza is undergoing an exciting transformation. Located in the heart of Stockton, this commercial plaza is being reimagined as more than just a place to shop—it's becoming a destination. Our vision is to create a vibrant, welcoming environment where the community can come together to relax, explore local businesses, and connect with one another. Whether you're visiting for a quick service, grabbing a bite to eat, or simply enjoying the atmosphere, The People's Plaza is being designed with you in mind.</p>
+<p>We’re especially excited to provide a space that caters to a wide range of visitors. With local colleges just minutes away, we see the plaza as the perfect spot for students to unwind between classes or gather with friends in a safe, secure, and well-lit setting. Our revitalization plan includes enhanced lighting, updated facades, thoughtfully designed seating areas, and curated landscaping that brings warmth and life to the property.</p>
+<p>But the experience won’t end when the sun goes down. The People's Plaza is also aiming to bring a touch of nightlife to Stockton. Whether it’s with music, community events, or just the buzz of friends enjoying the evening. By blending commerce, comfort, and community, we hope to spark something truly special in this corner of the city.</p>
+<p>Renovations are now underway, and we can’t wait to unveil what’s ahead. The People's Plaza is becoming a place for everyone, shoppers, service seekers, students, and families alike. We invite you to watch the transformation and be part of this exciting new chapter.</p>
+</section>
+<section class="section" id="units">
+<h2>Available Units for Lease</h2>
+<div class="carousel">
+<!-- Dynamically populated cards in JS -->
+</div>
+</section>
+<section class="section" id="book-plaza">
+<h2>Book Our Plaza For Your Event!</h2>
+<p>The People's Plaza is now offering our vibrant common area for daily event rentals. Whether you're planning a farmers market, art walk, community gathering, or another special event, our revitalized plaza is the perfect venue. We're excited to support local creativity, commerce, and culture—right in the heart of Stockton.</p>
+<p>Ready to bring your event to life? Let’s make it happen.</p>
+<a class="apply-btn" href="https://app.usemotion.com/meet/matias-heredia/showing" target="_blank">Book the Plaza</a>
+</section>
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<ul>
+<li>Leasing Agent Email: Matias@kpmstockton.com</li>
+<li>Phone: (209) 774-6850 </li>
+</ul>
+<p>Feel free to DM us on instagram if you have any questions about the plaza, or have any questions for us!</p>
+<a class="btn-instagram" href="https://www.instagram.com/the.peoples.plaza/">
+<img alt="Instagram" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" style="width:20px;height:20px;margin-right:10px;"/>
       Visit us on Instagram to find live updates!
     </a>
-  </section>
-
-  <footer>
+</section>
+<footer>
     The People's Plaza - 4545 Georgetown Pl, Stockton, CA 95207
-    <iframe src="https://www.google.com/maps?q=4545+Georgetown+Pl,+Stockton,+CA+95207&output=embed"></iframe>
-  </footer>
-
-  <script src="script.js"></script>
-
-<div id="lightbox" class="lightbox">
-  <span class="lightbox-close">&times;</span>
-  <img id="lightbox-img" src="" alt="Expanded view" />
+    <iframe src="https://www.google.com/maps?q=4545+Georgetown+Pl,+Stockton,+CA+95207&amp;output=embed"></iframe>
+</footer>
+<script src="script.js"></script>
+<div class="lightbox" id="lightbox">
+<span class="lightbox-close">×</span>
+<img alt="Expanded view" id="lightbox-img" src=""/>
 </div>
-
 </body>
 </html>
