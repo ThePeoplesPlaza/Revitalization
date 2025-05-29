@@ -26,6 +26,15 @@ function showDetail(phase) {
 window.showDetail = showDetail;
 
 document.addEventListener('DOMContentLoaded', () => {
+  // --- RANDOM PASTEL COLOR THEME ---
+  function generatePastelColor() {
+    const hue = Math.floor(Math.random() * 360);
+    return `hsl(${hue}, 70%, 85%)`;
+  }
+  const pastelColor = generatePastelColor();
+  document.querySelector('.nav-bar').style.backgroundColor = pastelColor;
+  document.querySelector('footer').style.backgroundColor = pastelColor;
+
   // --- UNIT CARDS ---
   const carousel = document.querySelector('.carousel');
 
