@@ -24,13 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-function toggleGallery() {
-  const moreImages = document.querySelector('.more-images');
-  const button = document.querySelector('.toggle-btn');
-  moreImages.classList.toggle('hidden');
-  button.textContent = moreImages.classList.contains('hidden') ? 'Show All Photos' : 'Hide Photos';
-}
-
 function toggleDetails() {
   const section = document.getElementById('unit-details');
   section.classList.toggle('hidden');
