@@ -40,18 +40,6 @@ body {
   cursor: pointer;
 }
 
-.toggle-btn {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  background-color: #5a67d8;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
 .hidden {
   display: none;
 }
