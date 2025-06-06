@@ -93,6 +93,18 @@ body {
   margin-top: 5px;
   font-size: 15px;
 }
+.fullwidth-toggle {
+  width: 100%;
+  background-color: #4c51bf;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   .info-box.improved {
