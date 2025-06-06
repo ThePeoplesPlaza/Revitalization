@@ -94,16 +94,24 @@ body {
   font-size: 15px;
 }
 .fullwidth-toggle {
+  display: block;
   width: 100%;
-  background-color: #4c51bf;
+  max-width: 100%;
+  background-color: #4c51bf; /* your original blue */
   color: white;
   font-weight: bold;
-  padding: 12px;
+  font-size: 16px;
+  padding: 12px 20px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   margin-top: 20px;
   cursor: pointer;
   text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.fullwidth-toggle:hover {
+  background-color: #3c44a1;
 }
 
 @media (max-width: 768px) {
