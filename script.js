@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carousel');
 
   const units = [
-    { title: "A1", price: 1700, viewLink: "unit-template.html", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
+    { title: "A1", price: 1700, viewLink: "unit-a1.html", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
     { title: "A7", price: 2700, viewLink: "https://showmojo.com/l/73e4cc0017/4545-georgetown-pl-a7-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
     { title: "B12", price: 770, viewLink: "https://showmojo.com/l/7433951017/4545-georgetown-pl-b12-stockton-ca-95207?g=2&sd=true"},
     { title: "C34", price: 1265, viewLink: "https://showmojo.com/l/74dfacf017/4545-georgetown-pl-c34-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
