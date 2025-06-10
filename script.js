@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { title: "A7", price: 2700, viewLink: "unit-a7.html"},
     { title: "B12", price: 770, viewLink: "unit-b12.html"},
     { title: "C34", price: 1265, viewLink: "unit-c34.html"},
-    { title: "C35", price: 1210, viewLink: "https://showmojo.com/l/752cfd3017/4545-georgetown-pl-c35-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
+    { title: "C35", price: 1210, viewLink: "unit-c35.html"},
     { title: "C36", price: 1100, viewLink: "https://showmojo.com/l/7577298017/4545-georgetown-pl-c36-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
     { title: "E25", price: 2950, viewLink: "https://showmojo.com/l/75c31a7017/4545-georgetown-pl-e25-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
     { title: "E26", price: 2375, viewLink: "https://showmojo.com/l/760dc2e017/4545-georgetown-pl-e26-stockton-ca-95207?fullscreen=true&g=2&sd=true"},
