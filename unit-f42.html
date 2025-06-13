@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4545 Georgetown Pl, Suite F41</title>
+  <link rel="stylesheet" href="unit-style-f41.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script defer src="unit-script-f41.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="property-header dark-header">
+      <h1>4545 Georgetown Pl, Suite F41</h1>
+      <h2>730 Sqft of Office Space Available in Stockton, CA 95219</h2>
+    </header>
+
+    <section class="gallery">
+      <div class="swiper-container main-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="f41pic1.jpg" alt="f41pic1" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="f41pic2.jpg" alt="f41pic2" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="f41pic3.jpg" alt="f41pic3" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="f41pic4.jpg" alt="f41pic4" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="f41pic5.jpg" alt="f41pic5" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="f41pic6.jpg" alt="f41pic6" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="f41pic7.jpg" alt="f41pic7" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="f41pic8.jpg" alt="f41pic8" onclick="openLightbox(this)" /></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <section class="info-box improved" style="margin-bottom: 30px;">
+      <div class="info">
+        <ul>
+          <li><strong>Price:</strong> $1600/mo</li>
+          <li><strong>Size:</strong> 730 SF</li>
+          <li><strong>Use:</strong> Office</li>
+          <li><strong>Available:</strong> Now</li>
+          <li><strong>Condition:</strong> Partial Build-Out</li>
+          <li><strong>Term:</strong> Negotiable</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <a href="https://app.usemotion.com/meet/matias-heredia/showing"
+           class="fullwidth-toggle"
+           style="max-width: 220px;">
+          📅 Schedule Showing
+        </a>
+      </div>
+
+      <button class="fullwidth-toggle" onclick="toggleDetails()">More Unit Details</button>
+
+      <div id="unit-details" class="hidden">
+        <ul>
+          <li>Private entry and reception area</li>
+          <li>Two private offices + open work area</li>
+          <li>HVAC included</li>
+          <li>Free parking</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="info-box improved" style="background-color: #063970; margin-top: 30px;">
+      <div style="width: 100%; display: flex; justify-content: center;">
+        <img src="Lease Agent Card.png" alt="Matias Heredia Signature Info Card" style="width: 100%; max-width: 850px; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.2);" />
+      </div>
+    </section>
+  </div>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close" onclick="closeLightbox()">×</span>
+    <img id="lightbox-img" class="lightbox-content" />
+  </div>
+</body>
+</html>
