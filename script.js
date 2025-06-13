@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
     { title: "C36", price: 1100, viewLink: "unit-c36.html"},
     { title: "E25", price: 2950, viewLink: "unit-e25.html"},
     { title: "E26", price: 2375, viewLink: "unit-e26.html"},
-    { title: "F41", price: 1600, viewLink: "unit-F41.html"},
-    { title: "F42", price: 1600, viewLink: "unit-F42.html"},
+    { title: "F41", price: 1600, viewLink: "unit-f41.html"},
+    { title: "F42", price: 1600, viewLink: "unit-f42.html"},
   ];
 
   units.forEach((unit, index) => {
