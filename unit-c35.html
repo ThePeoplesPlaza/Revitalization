@@ -3,70 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>4545 Georgetown Pl, Suite C35</title>
-  <link rel="stylesheet" href="unit-style-c35.css" />
+  <title>4545 Georgetown Pl, Suite A1</title>
+  <link rel="stylesheet" href="unit-style-a1.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script defer src="unit-script-c35.js"></script>
+  <script defer src="unit-script-a1.js"></script>
 </head>
 <body>
   <div class="container">
     <header class="property-header dark-header">
-      <h1>4545 Georgetown Pl, Suite C35</h1>
-      <h2>550 Sqft of Office Space Available in Stockton, CA 95219</h2>
+      <h1>4545 Georgetown Pl, Suite A1</h1>
+      <h2>850 Sqft of Office Space Available in Stockton, CA 95219</h2>
     </header>
-
     <section class="gallery">
       <div class="swiper-container main-swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="c35pic1.jpg" alt="c35pic1" onclick="openLightbox(this)" /></div>
-          <div class="swiper-slide"><img src="c35pic2.jpg" alt="c35pic2" onclick="openLightbox(this)" /></div>
-          <div class="swiper-slide"><img src="c35pic3.jpg" alt="c35pic3" onclick="openLightbox(this)" /></div>
-          <div class="swiper-slide"><img src="c35pic4.jpg" alt="c35pic4" onclick="openLightbox(this)" /></div>
-          <div class="swiper-slide"><img src="c35pic5.jpg" alt="c35pic5" onclick="openLightbox(this)" /></div>
-          <div class="swiper-slide"><img src="c35pic6.jpg" alt="c35pic6" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="Unit1.jpg" alt="Front Exterior" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="a1pic1.jpg" alt="Interior 1" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="a1pic2.jpg" alt="Interior 2" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="a1pic3.jpg" alt="Interior 3" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="a1pic4.jpg" alt="Interior 4" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="a1pic5.jpg" alt="Interior 5" onclick="openLightbox(this)" /></div>
+          <div class="swiper-slide"><img src="a1pic6.jpg" alt="Interior 6" onclick="openLightbox(this)" /></div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
       </div>
     </section>
-
     <section class="info-box improved" style="margin-bottom: 30px;">
-      <div class="info">
+      <div class="info" style="flex: 1 1 60%;">
+        <h2 style="margin-top: 0;">Welcome to The People’s Plaza</h2>
+        <p>A bold and colorful community-focused commercial center redefining business in Stockton.
+        This up-and-coming plaza is designed for entrepreneurs, creatives, and local favorites
+        looking to thrive in a dynamic, high-visibility environment.</p>
+        <h3>Spaces Available for Office or Retail Use</h3>
+        <h4>Features:</h4>
         <ul>
-          <li><strong>Price:</strong> $1210/mo</li>
-          <li><strong>Size:</strong> 550 SF</li>
+          <li>Vibrant, multicolor building exteriors create a unique, inviting aesthetic</li>
+          <li>Fresh decomposed granite landscaping throughout for a polished, eco-friendly touch</li>
+          <li>Upgraded lighting and string lights perfect for evening foot traffic and extended hours</li>
+          <li>Secure PIN-pad coded gates for peace of mind</li>
+          <li>Ambient music and beautifully lit common areas create a welcoming vibe</li>
+          <li>Generous dedicated parking for customers and tenants</li>
+          <li>Plaza hours: 8:00 AM to 10:00 PM, seven days a week</li>
+        </ul>
+        <h4>Prime Location:</h4>
+        <ul>
+          <li>Just off March Lane and Pacific Avenue</li>
+          <li>Less than 1 mile from University of the Pacific</li>
+          <li>Just over a mile to San Joaquin Delta College</li>
+          <li>1 mile from Stagg High School</li>
+        </ul>
+        <p>Whether you're opening a boutique, launching a studio, or expanding your professional
+        services, The People’s Plaza offers the charm, safety, and foot traffic to grow your business.</p>
+        <p><strong>Contact us now to schedule a tour and secure your spot at Stockton’s most exciting new commercial destination!</strong></p>
+      </div>
+      <div class="contact">
+        <a href="https://app.usemotion.com/meet/matias-heredia/showing"
+           class="fullwidth-toggle"
+           style="max-width: 240px;">
+          📅 Schedule Showing
+        </a>
+      </div>
+      <button class="fullwidth-toggle" onclick="toggleDetails()">More Unit Details</button>
+      <div id="unit-details" class="hidden">
+        <ul>
+          <li><strong>Price:</strong> $1700/mo</li>
+          <li><strong>Size:</strong> 850 SF</li>
           <li><strong>Use:</strong> Office</li>
           <li><strong>Available:</strong> Now</li>
           <li><strong>Term:</strong> Negotiable</li>
         </ul>
       </div>
-      <div class="contact">
-        <a href="https://app.usemotion.com/meet/matias-heredia/showing"
-           class="fullwidth-toggle"
-           style="max-width: 220px;">
-          📅 Schedule Showing
-        </a>
-      </div>
-
-      <button class="fullwidth-toggle" onclick="toggleDetails()">More Unit Details</button>
-
-      <div id="unit-details" class="hidden">
-        <ul>
-          <li>Free parking</li>
-          <li>More SOON!</li>
-        </ul>
-      </div>
     </section>
-
     <section class="info-box improved" style="background-color: #063970; margin-top: 30px;">
       <div style="width: 100%; display: flex; justify-content: center;">
         <img src="Leasing Agent Card.png" alt="Matias Heredia Signature Info Card" style="width: 100%; max-width: 850px; height: auto; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.2);" />
       </div>
     </section>
   </div>
-
   <div id="lightbox" class="lightbox" onclick="closeLightbox()">
     <span class="lightbox-close" onclick="closeLightbox()">×</span>
     <img id="lightbox-img" class="lightbox-content" />
