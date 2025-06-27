@@ -1,3 +1,4 @@
+
 function scrollCarousel(direction) {
   const carousel = document.querySelector('.carousel');
   const scrollAmount = 300;
@@ -26,7 +27,6 @@ function showDetail(phase) {
 window.showDetail = showDetail;
 
 document.addEventListener('DOMContentLoaded', () => {
-  // --- RANDOM PASTEL COLOR THEME ---
   function generatePastelColor() {
     const hue = Math.floor(Math.random() * 360);
     return `hsl(${hue}, 70%, 85%)`;
@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.nav-bar').style.backgroundColor = pastelColor;
   document.querySelector('footer').style.backgroundColor = pastelColor;
 
-  // --- UNIT CARDS ---
   const carousel = document.querySelector('.carousel');
 
   const units = [
@@ -60,12 +59,12 @@ document.addEventListener('DOMContentLoaded', () => {
       <p>$${unit.price.toLocaleString()}/mo • Retail/Office</p>
       <div class="card-buttons">
         <a class="view-btn" href="${unit.viewLink}" target="_blank">View Listing</a>
+        <a class="schedule-btn" href="https://app.usemotion.com/meet/matias-heredia/showing" target="_blank">Schedule Showing</a>
       </div>
     `;
     carousel.appendChild(card);
   });
 
-  // --- GALLERY LIGHTBOX ---
   const galleryImages = document.querySelectorAll('.gallery-grid img');
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');

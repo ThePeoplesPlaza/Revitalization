@@ -301,3 +301,21 @@ footer iframe {
   border-radius: 12px;
   margin-top: 20px;
 }
+
+.schedule-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  background-color: #fbbf24;
+  box-sizing: border-box;
+  transition: background-color 0.25s ease;
+}
+
+.schedule-btn:hover {
+  background-color: #f59e0b;
+}
