@@ -39,15 +39,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const units = [
     { title: "A1", price: 1700, viewLink: "unit-a1.html", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
-    { title: "A7", price: 2700, viewLink: "unit-a7.html"},
-    { title: "B12", price: 770, viewLink: "unit-b12.html"},
-    { title: "C34", price: 1265, viewLink: "unit-c34.html"},
-    { title: "C35", price: 1210, viewLink: "unit-c35.html"},
-    { title: "C36", price: 1100, viewLink: "unit-c36.html"},
-    { title: "E25", price: 2950, viewLink: "unit-e25.html"},
-    { title: "E26", price: 2375, viewLink: "unit-e26.html"},
-    { title: "F41", price: 1600, viewLink: "unit-f41.html"},
-    { title: "F42", price: 1600, viewLink: "unit-f42.html"},
+    { title: "A7", price: 2700, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
+    { title: "B12", price: 770, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
+    { title: "C34", price: 1265, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
+    { title: "C35", price: 1210, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
+    { title: "C36", price: 1100, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
+    { title: "E25", price: 2950, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
+    { title: "E26", price: 2375, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
+    { title: "F41", price: 1600, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
+    { title: "F42", price: 1600, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
   ];
 
   units.forEach((unit, index) => {
