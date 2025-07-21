@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carousel');
 
   const units = [
-    { title: "A1", price: 1700, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
+    { title: "A1", price: 1700, viewLink: "unit-a1.html", applyLink: "https://docs.google.com/forms/d/e/1FAIpQLSeFgBE2i5baAcGrmPqayblZnQNrXJPpLK30LYcIPcEWDMPm-Q/viewform?usp=dialog" },
     { title: "A7", price: 2700, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
     { title: "B12", price: 770, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
     { title: "C34", price: 1265, viewLink: "https://www.loopnet.com/Listing/4545-Georgetown-Pl-Stockton-CA/36377178/"},
